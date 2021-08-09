@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": "cli.js",
+  "bin": {
+    "YL": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chenlong",
   "license": "ISC",
   "dependencies": {
+    "commander": "^8.1.0",
     "ejs": "^3.1.6",
+    "fs-extra": "^10.0.0",
     "inquirer": "^8.1.2"
   }
 }
